@@ -41,7 +41,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         textToSpeak = findViewById(R.id.textToSpeak);
-        textToSpeak.setText("In Android Studio we need to install Gherkin plugin. This plugin provides Gherkin language support. Gherkin is the language that Cucumber uses to define test cases (test scenarios). It has been designed to be non-technical and human readable"
+        textToSpeak.setText("Follett has been a trusted partner to Pre-K and K-12 schools, districts, and college campuses for more than 140 years, taking care of the critical details that make it easier for schools to run, teachers to teach and students to learn.\n" +
+                "\n" +
+                "Every day, we serve over half of the students in the United States, and work with 80,000 schools as a leading provider of education technology, services and print and digital content. We're higher education's largest campus retailer and a hub for school spirit and community as we operate nearly 1,200 local campus stores and over 1,600 virtual stores across the continent."
         );
         progressView = findViewById(R.id.progressView);
         voiceListView = findViewById(R.id.voiceListView);
